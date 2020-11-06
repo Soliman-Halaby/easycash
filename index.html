@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="form">
+  <header class="header">
+    <img class="logoImg" alt="Logo Le Grand live" src="./Logo_legrandlive_ebauche.png">
+  </header>
   <div class="formGrid">
     <form action="" method="POST" class="formLogin">
       <div class="formAction">
@@ -15,6 +18,9 @@
       </div>
       <div class="formAction">
         <input id="loginPass" type="password" name="password" class="passwordInput" placeholder="Mot de passe">
+      </div>
+      <div class="errorContainer">
+        <span class="errorMessage">Nom d'utilisateur ou mot de passe incorrect</span>
       </div>
       <div class="formAction">
         <input class="formSubmit" type="submit" value="Connexion">

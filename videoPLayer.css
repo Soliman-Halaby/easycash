@@ -1,0 +1,53 @@
+.Questionbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 19%;
+    min-width: 155px;
+    height: 50px;
+    background :rgb(197, 26, 27);
+}
+
+.question{
+    font-size: 100%;
+    color: #ffffff;   
+    text-decoration: none;
+}
+
+.questionPop{
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    background :rgb(197, 26, 27);
+    opacity: 0.9;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    position: absolute;
+    color: var(--secondaryColor);
+    z-index: 11;
+    padding-top: 10px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+input[type=submit] {
+    margin: 5px;
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+.questionInput{
+    color: #ffffff;
+    font-weight: normal;
+    margin: 10px;
+}

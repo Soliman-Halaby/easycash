@@ -1,3 +1,30 @@
+body{
+    background: #222222;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.titleDiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.pageTitle{
+    color: #ffffff;
+    font-size: 100%;
+}
+  
+  .logoImg{
+    width: 15%;
+  }
+
 .video-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -9,6 +36,24 @@
     overflow: hidden;
 }
 
-.videoGap{
-    margin-left: 15px;
+#imageVideo{
+    width: 100%;
+    cursor: pointer;
+}
+
+.videoLink{
+    width: 15%;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 800px){
+    .logoImg{
+      width: 40%;
+    }
+
+    .videoLink{
+        width: 25%;
+        margin: 5px;
+    }
 }

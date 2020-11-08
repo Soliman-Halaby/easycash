@@ -1,14 +1,14 @@
-const firstVideoName = document.querySelector('.mainVideo')
-const mainVideoSrc = document.querySelector('.mainVideoSrc')
-const videoPlayer = document.querySelector('.videoPlayer')
+const questionButton = document.querySelector('.Questionbutton')
+const questionPopup = document.querySelector('.questionPop')
+const close = document.querySelector('.close')
 
-console.log(firstVideoName)
-console.log(videoPlayer)
-firstVideoName.addEventListener('click', ()=>
+console.log(questionButton)
+questionButton.addEventListener('click', () =>
 {
-    const createVideo = document.createElement("SOURCE")
-    createVideo.src = `${firstVideoName.className}.mp4`
-    videoPlayer.appendChild(createVideo)
-    console.log(videoPlayer)
+    questionPopup.style.display = 'flex'
 })
 
+close.addEventListener('click',() =>
+{
+    questionPopup.style.display = 'none'
+})

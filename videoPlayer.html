@@ -18,9 +18,13 @@
     </header>
     <div class="questionPop">
         <span class="questionInput">Saisissez votre question</span>
+        <div class="questionHeader">
+            <span class="close">x</span>
+        </div>
         <textarea id="questionArea" name="questionArea" rows="5" cols="33"></textarea>
         <div class="sendButton">
-            <input class=sendText" type="submit" value="Envoyer le formulaire"></div>
+            <input class="sendText" type="submit" value="Envoyer le formulaire">
+        </div>
     </div>
     <div class="video-wrapper">
         <div class="Questionbutton">
@@ -30,7 +34,7 @@
             <a class="question" href="./videoJS.html">Vidéos Flashs</a>
         </div>
     </div>
-    <video class="videoPlayer video-js vjs-default-skin vjs-big-play-centered" controls data-setup='{"fluid": true}'>
+    <video width='' height='' class="videoPlayer video-js vjs-default-skin vjs-big-play-centered" controls data-setup='{"fluid": true}'>
         <source src="mainVideo.mp4">
         </video>
     </div>

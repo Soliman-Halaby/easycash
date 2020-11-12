@@ -5,7 +5,6 @@ body{
 
 .header{
     width: 98%;
-    height: 100%;
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
@@ -21,6 +20,7 @@ body{
   
   .logoImg{
       transform: scale(0.6);
+      margin-left: -90px;
   }
 
 .video-wrapper{
@@ -49,6 +49,7 @@ body{
     .logoImg{
         width: 20%;
         height: 100%;
+        margin-left: 0px;
     }
 
     .videoLink{

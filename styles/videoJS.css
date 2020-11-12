@@ -47,7 +47,8 @@ body{
 
 @media screen and (max-width: 800px){
     .logoImg{
-        transform: scale(0.3);
+        width: 20%;
+        height: 100%;
     }
 
     .videoLink{

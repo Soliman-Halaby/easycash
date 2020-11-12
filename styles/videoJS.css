@@ -31,13 +31,13 @@ HEADER PART
   
 .logoImg{
     width: 10%;
-    height: 100;
-    flex-shrink: 0;
+    height: 100%;
+    flex-shrink: 2;
 }
 
 .easyCash{
-    margin-top: 10px;
-    height: 70%;
+    margin-top: 20px;
+    height: 55%;
 }
 
 .video-wrapper{
@@ -62,7 +62,7 @@ HEADER PART
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     .logoImg{
         width: 20%;
         height: 100%;

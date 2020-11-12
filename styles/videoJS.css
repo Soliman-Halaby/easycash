@@ -4,25 +4,21 @@ body{
 }
 
 .header{
-    width: 100%;
+    width: 98%;
     height: 100%;
     margin-bottom: 100px;
     display: flex;
-}
-
-.titleDiv{
-    width: 80%;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    background :rgb(197, 26, 27);
 }
 
 .pageTitle{
     color: #ffffff;
-    font-size: 100%;
+    font-size: 3rem;
 }
   
   .logoImg{
-    width: 15%;
+      transform: scale(0.6);
   }
 
 .video-wrapper{
@@ -49,11 +45,15 @@ body{
 
 @media screen and (max-width: 800px){
     .logoImg{
-      width: 40%;
+      width: 10%;
     }
 
     .videoLink{
         width: 25%;
         margin: 5px;
+    }
+    
+    .pageTitle{
+        font-size: 0.9rem;
     }
 }

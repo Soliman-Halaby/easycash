@@ -3,6 +3,9 @@
   --gridWidth: 90%;
 }
 
+.header{
+  background: red;
+}
 body{
 
   font-family: 'Roboto', sans-serif;

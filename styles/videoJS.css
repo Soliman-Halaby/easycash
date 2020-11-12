@@ -52,6 +52,11 @@ body{
         margin-left: 0px;
     }
 
+    .leGrandlive{
+        margin-top: 25px;
+        transform: scale(0.9);
+    }
+
     .videoLink{
         width: 25%;
         margin: 5px;

@@ -33,6 +33,11 @@ HEADER PART
     width: 10%;
 }
 
+.easyCash{
+    margin-top: 10px;
+    height: 70%;
+}
+
 .video-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -68,5 +73,9 @@ HEADER PART
     
     .pageTitle{
         font-size: 0.9rem;
+    }
+    
+    .easyCash{
+        margin-top: 0px;
     }
 }

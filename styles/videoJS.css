@@ -81,4 +81,8 @@ HEADER PART
         margin-top: 10px;
         height: 60%;
     }
+
+    .bigTitle{
+        font-size: 0.7rem;
+    }
 }

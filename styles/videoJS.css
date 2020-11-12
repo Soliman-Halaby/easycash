@@ -3,25 +3,35 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/******
+
+HEADER PART
+
+*******/
+
 .header{
     width: 100%;
     margin-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
     background :rgb(197, 26, 27);
+    display: flex;
+    justify-content: center;
 }
 
+.headerContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
 .pageTitle{
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
 }
   
-  .logoImg{
-      transform: scale(0.6);
-      margin-left: -90px;
-  }
+.logoImg{
+    width: 10%;
+}
 
 .video-wrapper{
     display: flex;
@@ -49,12 +59,6 @@ body{
     .logoImg{
         width: 20%;
         height: 100%;
-        margin-left: 0px;
-    }
-
-    .leGrandlive{
-        margin-top: 20px;
-        transform: scale(0.9);
     }
 
     .videoLink{

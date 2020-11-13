@@ -19,7 +19,7 @@ body{
 }
 
 .logoImg{
-  width: 15%;
+  width: 20%;
   margin-left: 20%;
 }
 
@@ -61,7 +61,7 @@ body{
 }
 
 .formAction .formSubmit{
-  background: rgb(178, 44, 42);
+    background :rgb(179, 41, 28);
   color: white;
   font-size: 16px;
   cursor: pointer;

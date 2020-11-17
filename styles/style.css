@@ -63,7 +63,7 @@ body{
 }
 
 .formAction .formSubmit{
-    background :rgb(196, 16, 25);
+  background :rgb(196, 16, 25);
   color: white;
   font-size: 16px;
   cursor: pointer;
